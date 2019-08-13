@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  padding-top: 6em;
+}

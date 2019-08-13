@@ -1,0 +1,74 @@
+#excuse-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  padding: 3em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 6px;
+}
+
+#excuse-container:after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid black;
+  border-right: 50px solid black;
+  border-bottom: 25px solid black;
+}
+
+.excuse-tab {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button.button-excuse {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 15px 28px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 1em;
+  margin-top: 1em;
+  border-radius: 4px;
+
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #fac5f7,
+    #fac5f7 10px,
+    #e29dde 10px,
+    #e29dde 20px
+    );
+  color: black;
+}
+
+button:active {
+  background-color: white;
+  background: white;
+  color: black;
+  outline: none;
+}
