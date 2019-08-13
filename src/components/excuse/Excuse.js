@@ -1,11 +1,17 @@
 import React from 'react';
 import './Excuse.css';
+import { excuseList } from './excuse_db'; 
 import BorderWrapper from 'react-border-wrapper';
 
 const sampleExcuse = "Need to drive my sister to the doctors";
 const topElement = <div className="excuse-tab">Excuse</div>;
 
 function Excuse() {
+
+  
+
+
+
   return (
     <div>
       <article id="excuse-container" >
